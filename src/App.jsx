@@ -1,12 +1,13 @@
 import './App.css';
+import Studentform from './studentform';
+// import Studentform from '../studentform';
 
 function App() {
   return (
-    <div className="App">
-    
-    <h2>App</h2>
-    
-  
+    <div>
+  <h2>APP</h2>
+
+    <Studentform></Studentform>
     </div>
   );
 }
