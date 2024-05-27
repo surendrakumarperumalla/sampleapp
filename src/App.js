@@ -1,26 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './store/counter';
+import Todos from './store/todo';
+import Products from './store/products';
+import { connect } from 'react-redux';
 
-function App() {
+function App(props) {
   return (
-
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+ <div className="border border-2 border-danger m-2 p-2">
+     <h1>
+      Cart:{props.productsReducer.cart.length}
+      </h1>
+     <Counter></Counter>
+     <Todos></Todos>
+     <Products></Products>
     </div>
   );
 }
 
-export default App;
+export default  connect(store=>store)(App);
