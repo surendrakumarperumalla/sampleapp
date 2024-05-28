@@ -5,8 +5,8 @@ import Counter from './counter';
 function App() {
   return (
     <div className="App">
-     <h1>App</h1>
-<Counter></Counter>
+      <App></App>
+     
     </div>
   );
 }
