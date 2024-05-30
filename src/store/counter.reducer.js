@@ -3,10 +3,10 @@ const initialState={
 }
 
 function counterReducer(state=initialState,action){
-    if(action.type==="INCREEMENT"){
+    if(action.type==="INCREMENT"){
         return{...state,count:state.count+1}
     }
-    if(action.type==="DECREEMENT"){
+    if(action.type==="DECREMENT"){
         return{...state,count:state.count-1}
     }
     if(action.type==="RESET"){

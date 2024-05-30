@@ -1,6 +1,11 @@
 const initialState = {
 
-    todos: ["surendra", "kumar", "roy", "joy"]
+    todos: [
+        "surendra", 
+    "kumar", 
+    "roy", 
+    "joy"
+]
 
 }
 
