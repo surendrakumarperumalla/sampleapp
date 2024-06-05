@@ -9,10 +9,10 @@ function App() {
   return (
     <div className='border border-danger'>
      <h1>APP</h1>
-     {/* <Countries></Countries>
+     <Countries></Countries>
       <Counter></Counter>
-     <Todolist></Todolist>  */}
-     <Products>y</Products>
+     <Todolist></Todolist> 
+     <Products></Products>
 
     </div>
   );
