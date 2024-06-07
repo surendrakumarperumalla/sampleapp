@@ -1,5 +1,5 @@
 import React from 'react'
-import { useGetAllcountriesQuery } from '../services/countries'
+import { useGetAllcountriesQuery } from '../services/countriesAPI'
 
 function Countries() {
     var{isLoading,data}= useGetAllcountriesQuery()

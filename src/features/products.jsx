@@ -1,5 +1,5 @@
 import React from 'react'
-import { useGetAllproductsQuery, useLazyGetAllproductsQuery } from '../services/products'
+import { useGetAllproductsQuery, useLazyGetAllproductsQuery } from '../services/productsAPI'
 import { useState } from 'react'
 
 function Products() {
