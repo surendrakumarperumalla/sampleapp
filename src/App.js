@@ -9,9 +9,9 @@ function App() {
   return (
     <div className='border border-danger'>
      <h1>APP</h1>
-     <Countries></Countries>
-      <Counter></Counter>
+     <Counter></Counter>
      <Todolist></Todolist> 
+     <Countries></Countries>
      <Products></Products>
 
     </div>
